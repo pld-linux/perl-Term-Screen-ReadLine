@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	Screen-ReadLine
+%define		pdir	Term
+%define		pnam	Screen-ReadLine
 Summary:	ReadLine extension for Term::Screen Perl module
 Summary(pl):	Roszerzenie ReadLine dla modu³u Perla Term::Screen
 Name:		perl-Term-Screen-ReadLine

@@ -1,0 +1,17 @@
+--- Term-Screen-ReadLine-0.35/test.pl.orig	2004-05-01 18:31:27.196373672 +0200
++++ Term-Screen-ReadLine-0.35/test.pl	2004-05-01 18:31:54.225264656 +0200
+@@ -50,11 +50,13 @@
+ print "$N*setstr($L) : $e secs\n\r";
+ 
+ print "\nAny key to continue:";
+-$scr->getch();
++#$scr->getch();
+ 
+ print "\n\rok $tst\n";
+ $tst++;
+ 
++__END__
++
+ ###############################################################################
+ 
+ $scr->clrscr();

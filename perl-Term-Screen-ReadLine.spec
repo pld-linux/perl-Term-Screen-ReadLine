@@ -11,7 +11,7 @@ Name:		perl-Term-Screen-ReadLine
 Version:	0.35
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	09756d236169edc8cfaecb58953fa69d
@@ -38,7 +38,6 @@ Term::Screenie.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}

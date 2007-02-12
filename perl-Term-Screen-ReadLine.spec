@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	Screen-ReadLine
 Summary:	ReadLine extension for Term::Screen Perl module
-Summary(pl):	Roszerzenie ReadLine dla modu³u Perla Term::Screen
+Summary(pl.UTF-8):   Roszerzenie ReadLine dla moduÅ‚u Perla Term::Screen
 Name:		perl-Term-Screen-ReadLine
 Version:	0.35
 Release:	1
@@ -26,9 +26,9 @@ This module extends Term::Screen with a readline() function. It also
 makes it possible to use a 'single' Esc to escape instead of the
 Term::Screen double Esc.
 
-%description -l pl
-Modu³ rozszerzaj±cy Term::Screena o funkcjê readline() oraz
-pozwalaj±cy na u¿ycie 'pojedynczego' Esc zamiast podwójnego w
+%description -l pl.UTF-8
+ModuÅ‚ rozszerzajÄ…cy Term::Screena o funkcjÄ™ readline() oraz
+pozwalajÄ…cy na uÅ¼ycie 'pojedynczego' Esc zamiast podwÃ³jnego w
 Term::Screenie.
 
 %prep

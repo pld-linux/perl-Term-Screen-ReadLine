@@ -9,7 +9,7 @@ Summary:	ReadLine extension for Term::Screen Perl module
 Summary(pl.UTF-8):	Roszerzenie ReadLine dla modułu Perla Term::Screen
 Name:		perl-Term-Screen-ReadLine
 Version:	0.35
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

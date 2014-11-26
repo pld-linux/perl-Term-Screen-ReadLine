@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	Screen-ReadLine
+%include	/usr/lib/rpm/macros.perl
 Summary:	ReadLine extension for Term::Screen Perl module
 Summary(pl.UTF-8):	Roszerzenie ReadLine dla modułu Perla Term::Screen
 Name:		perl-Term-Screen-ReadLine
@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	09756d236169edc8cfaecb58953fa69d
 Patch0:		%{name}-test.patch
+URL:		http://search.cpan.org/dist/Term-Screen-ReadLine/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
